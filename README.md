@@ -816,12 +816,12 @@ npm run build
 ### Backend Deployment (Render)
 
 - **Push your backend/ folder to GitHub**
-- **Railway**2.Create a new Web Service on Render
-3.Set Root Directory to backend
-4.Set Build Command: pip install -r requirements.txt
-5.Set Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT
-6.Add all environment variables from backend/.env in the Environment tab
-7.For the database, create a free PostgreSQL instance on Supabase or Neon and paste the connection URL as DATABASE_URL
+- **Create a new Web Service on Render**
+- **Set Root Directory to backend**
+- **Set Build Command: pip install -r requirements.txt**
+- **Set Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT**
+- **Add all environment variables from backend/.env in the Environment tabr**
+- **For the database, create a free PostgreSQL instance on Supabase or Neon and paste the connection URL as DATABASE_URL**
 
 
 Your backend will be live at: `https://your-app.render.app`
@@ -830,11 +830,11 @@ Your backend will be live at: `https://your-app.render.app`
 
 ### Frontend Deployment (Vercel)
 
-1.Push your frontend/ folder to GitHub
-2.Create a new project on Vercel and import from GitHub
-3.Set Root Directory to frontend
-4.Add environment variable: VITE_API_URL = https://yourbackend-api.onrender.com
-5.Deploy
+- **Push your frontend/ folder to GitHub**
+- **Create a new project on Vercel and import from GitHub**
+- **Set Root Directory to frontend**
+- **Add environment variable: VITE_API_URL = https://yourbackend-api.onrender.com**
+- **Deploy**
 
 Your frontend will be live at: `https://your-app.vercel.app`
 
