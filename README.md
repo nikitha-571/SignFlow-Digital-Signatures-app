@@ -4,9 +4,9 @@
 
   ### Secure, Scalable Digital Document Signing Made Simple
 
-• [![Live Demo]](https://your-frontend-url.vercel.app)
+• [[Live Demo]](https://signflow-frontend-plum.vercel.app/)
 
-• [![Backend API]](https://your-backend-url.railway.app)
+• [[Backend API]](https://signflow-backend-70lm.onrender.com/docs)
 
 
 
@@ -822,7 +822,7 @@ npm run build
 7.For the database, create a free PostgreSQL instance on Supabase or Neon and paste the connection URL as DATABASE_URL
 
 
-Your backend will be live at: `https://your-app.railway.app`
+Your backend will be live at: `https://your-app.render.app`
 
 ---
 
@@ -831,7 +831,7 @@ Your backend will be live at: `https://your-app.railway.app`
 1.Push your frontend/ folder to GitHub
 2.Create a new project on Vercel and import from GitHub
 3.Set Root Directory to frontend
-4.Add environment variable: VITE_API_URL = https://penseal-api.onrender.com
+4.Add environment variable: VITE_API_URL = https://yourbackend-api.onrender.com
 5.Deploy
 
 Your frontend will be live at: `https://your-app.vercel.app`
@@ -904,8 +904,8 @@ Your frontend will be live at: `https://your-app.vercel.app`
 
 ## 🔗 Links
 
-- **Live Demo**: [https://signflow-demo.vercel.app](#)
-- **API Documentation**: [https://api.signflow.com/docs](#)
+- **Live Demo**: [https://signflow-frontend-plum.vercel.app/](#)
+- **API Documentation**: [https://signflow-backend-70lm.onrender.com/docs](#)
 ---
 
 <div align="center">

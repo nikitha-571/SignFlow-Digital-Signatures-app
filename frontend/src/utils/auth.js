@@ -19,7 +19,7 @@ export const register = async (name, email, password) => {
   return response.data;
 };
 
-// ✅ CHANGED: Renamed to loginWithPassword
+
 export const loginWithPassword = async (email, password) => {
   const response = await api.post('/api/auth/login', {
     email,
@@ -38,12 +38,12 @@ export const loginWithPassword = async (email, password) => {
   return response.data;
 };
 
-// ✅ NEW: Simple login function for OAuth (just stores data)
+
 export const login = (token, user) => {
   localStorage.setItem('token', token);
   localStorage.setItem('user', JSON.stringify(user));
   
-  // Set default authorization header for future API calls
+
   api.defaults.headers.common['Authorization'] = `Bearer ${token}`;
   
   console.log('✅ User logged in:', user.email);
@@ -53,7 +53,7 @@ export const logout = () => {
   localStorage.removeItem('token');
   localStorage.removeItem('user');
   
-  // Remove authorization header
+
   delete api.defaults.headers.common['Authorization'];
   
   window.location.href = '/login';
@@ -68,7 +68,7 @@ export const getCurrentUser = () => {
     return JSON.parse(userStr);
   } catch (error) {
     console.error('Error parsing user data:', error);
-    // Clear corrupted data
+
     localStorage.removeItem('user');
     localStorage.removeItem('token');
     return null;
