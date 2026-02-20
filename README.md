@@ -16,15 +16,17 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Problem Statement](#problem-statement)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [System Architecture](#system-architecture)
-- [Application Walkthrough](#application-walkthrough)
-- [Installation & Setup](#installation--setup)
-- [Deployment](#deployment)
-- [Future Enhancements](#future-enhancements)
+- [Overview](#-overview)
+- [Problem Statement](#-problem-statement)
+- [Features](#-features)
+- [Tech Stack](#️-tech-stack)
+- [System Architecture](#️-system-architecture)
+- [Application Walkthrough](#-application-walkthrough)
+- [Installation & Setup](#-installation--setup)
+- [Deployment](#-deployment)
+- [Future Enhancements](#-future-enhancements)
+- [Acknowledgments](#-acknowledgments)
+
 ---
 
 ## 🎯 Overview
@@ -813,8 +815,8 @@ npm run build
 
 ### Backend Deployment (Render)
 
-1.Push your backend/ folder to GitHub
-2.Create a new Web Service on Render
+- **Push your backend/ folder to GitHub**
+- **Railway**2.Create a new Web Service on Render
 3.Set Root Directory to backend
 4.Set Build Command: pip install -r requirements.txt
 5.Set Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT
@@ -841,7 +843,7 @@ Your frontend will be live at: `https://your-app.vercel.app`
 ### Alternative Deployment Options
 
 #### Backend:
-- **Railway**: Similar to Railway, automatic deploys from Git
+- **Railway**: Similar to Render, automatic deploys from Git
 - **Fly.io**: Global edge deployment
 - **Heroku**: Classic PaaS platform
 - **AWS EC2**: Full control VPS
