@@ -409,7 +409,7 @@ async def send_signer_download_email(
     <body>
     <div class="container">
         <div class="header">
-            <h1 style="margin:0; font-size:28px;">✍️ PenSeal</h1>
+            <h1 style="margin:0; font-size:28px;">✍️ SignFlow</h1>
             <p style="margin:8px 0 0; opacity:0.9;">Document Fully Signed</p>
         </div>
         <div class="content">
@@ -437,7 +437,7 @@ async def send_signer_download_email(
             <div class="url-box">{download_url}</div>
         </div>
         <div class="footer">
-            <p>© 2026 PenSeal Digital Signatures. All rights reserved.</p>
+            <p>© 2026 SignFlow Digital Signatures. All rights reserved.</p>
             <p>Secure document signing platform</p>
         </div>
     </div>
